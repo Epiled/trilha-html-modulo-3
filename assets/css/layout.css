@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  padding-bottom: 8.2rem;
+}
+
+.container__wrapper {
+  background: var(--background-color-base);
+}
+
+.layout {
+  display: grid;
+  padding: 0 2.4rem;
+
+  @media screen and (min-width: 768px) {
+    grid-template-areas: "menuLeft contentMain menuRight";
+  }
+}
+
+.menu {
+  grid-area: menuLeft;
+}
+
+.content {
+  grid-area: contentMain;
+  padding: 0 1.6rem;
+  border-left: 0.1rem solid var(--border-color-base);
+  border-right: 0.1rem solid var(--border-color-base);
+}
+
+.menuInter {
+  grid-area: menuRight;
+}
+
+.menu__list,
+.menuInter__list {
+  padding: 0.6rem 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__section {
+  margin-bottom: 1.2rem;
+}

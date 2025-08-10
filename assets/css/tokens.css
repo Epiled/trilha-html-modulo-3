@@ -1,0 +1,10 @@
+:root {
+  --color-base: #202122;
+  --color-emphasized: #101418;
+  --color-progressive: #36c;
+  --background-color-interactive: #eaecf0;
+  --background-color-neutral-subtle: #f8f9fa;
+  --background-color-base: #fff;
+  --border-color-base: #a2a9b1;
+  --line-height-content: 1.625;
+}

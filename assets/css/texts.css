@@ -1,0 +1,40 @@
+.title {
+  color: var(--color-emphasized);
+  font-family: sans-serif;
+}
+
+.title--main {
+  font-size: 2.88rem;
+  font-weight: bold;
+  padding-bottom: 0.6rem;
+  border-bottom: 0.1rem solid var(--border-color-base);
+}
+
+.title--secondary {
+  font-size: 2.4rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 0.1rem solid var(--border-color-base);
+  margin-bottom: 1.2rem;
+}
+
+.title--tertiary {
+  font-size: 1.92rem;
+  font-weight: bold;
+}
+
+.text {
+  color: var(--color-base);
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: var(--line-height-content);
+  margin: 0.8rem 0 1.6rem 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-progressive);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
